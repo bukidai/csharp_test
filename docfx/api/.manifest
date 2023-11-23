@@ -1,0 +1,18 @@
+{
+  "csharp_test": "csharp_test.yml",
+  "csharp_test.App": "csharp_test.App.yml",
+  "csharp_test.App.Main(System.String[])": "csharp_test.App.yml",
+  "csharp_test.Car": "csharp_test.Car.yml",
+  "csharp_test.Car.#ctor(System.String,System.Int32,System.Int32)": "csharp_test.Car.yml",
+  "csharp_test.Car.Displacement": "csharp_test.Car.yml",
+  "csharp_test.Car.MaxSpeed": "csharp_test.Car.yml",
+  "csharp_test.Car.Name": "csharp_test.Car.yml",
+  "csharp_test.Car.Run": "csharp_test.Car.yml",
+  "csharp_test.Car.ShowInfo": "csharp_test.Car.yml",
+  "csharp_test.PassengerCar": "csharp_test.PassengerCar.yml",
+  "csharp_test.PassengerCar.#ctor(System.String,System.Int32,System.Int32)": "csharp_test.PassengerCar.yml",
+  "csharp_test.PassengerCar.Run": "csharp_test.PassengerCar.yml",
+  "csharp_test.Truck": "csharp_test.Truck.yml",
+  "csharp_test.Truck.#ctor": "csharp_test.Truck.yml",
+  "csharp_test.Truck.Run": "csharp_test.Truck.yml"
+}

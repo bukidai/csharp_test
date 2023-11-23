@@ -1,0 +1,42 @@
+{
+  "api/csharp_test.App.html": {
+    "href": "api/csharp_test.App.html",
+    "title": "Class App | mysite",
+    "keywords": "Class App Namespace csharp_test Assembly csharp_test.dll public class App Inheritance object App Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Methods Main(string[]) public static void Main(string[] args) Parameters args string[]"
+  },
+  "api/csharp_test.Car.html": {
+    "href": "api/csharp_test.Car.html",
+    "title": "Class Car | mysite",
+    "keywords": "Class Car Namespace csharp_test Assembly csharp_test.dll 自動車を表す抽象クラス public abstract class Car Inheritance object Car Derived PassengerCar Truck Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Constructors Car(string, int, int) public Car(string name, int displacement, int maxSpeed) Parameters name string displacement int maxSpeed int Properties Displacement public int Displacement { get; set; } Property Value int MaxSpeed public int MaxSpeed { get; set; } Property Value int Name public string Name { get; set; } Property Value string Methods Run() public abstract void Run() ShowInfo() public void ShowInfo()"
+  },
+  "api/csharp_test.PassengerCar.html": {
+    "href": "api/csharp_test.PassengerCar.html",
+    "title": "Class PassengerCar | mysite",
+    "keywords": "Class PassengerCar Namespace csharp_test Assembly csharp_test.dll 乗用車を表すクラス public class PassengerCar : Car Inheritance object Car PassengerCar Inherited Members Car.Name Car.Displacement Car.MaxSpeed Car.ShowInfo() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Constructors PassengerCar(string, int, int) public PassengerCar(string name, int displacement, int maxSpeed) Parameters name string displacement int maxSpeed int Methods Run() public override void Run()"
+  },
+  "api/csharp_test.Truck.html": {
+    "href": "api/csharp_test.Truck.html",
+    "title": "Class Truck | mysite",
+    "keywords": "Class Truck Namespace csharp_test Assembly csharp_test.dll トラックを表すクラス public class Truck : Car Inheritance object Car Truck Inherited Members Car.Name Car.Displacement Car.MaxSpeed Car.ShowInfo() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Constructors Truck() public Truck() Methods Run() public override void Run()"
+  },
+  "api/csharp_test.html": {
+    "href": "api/csharp_test.html",
+    "title": "Namespace csharp_test | mysite",
+    "keywords": "Namespace csharp_test Classes App Car 自動車を表す抽象クラス PassengerCar 乗用車を表すクラス Truck トラックを表すクラス"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | mysite",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | mysite",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | mysite",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

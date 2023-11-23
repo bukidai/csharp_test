@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: csharp_test
+  commentId: N:csharp_test
+  id: csharp_test
+  children:
+  - csharp_test.App
+  - csharp_test.Car
+  - csharp_test.PassengerCar
+  - csharp_test.Truck
+  langs:
+  - csharp
+  - vb
+  name: csharp_test
+  nameWithType: csharp_test
+  fullName: csharp_test
+  type: Namespace
+  assemblies:
+  - csharp_test
+references:
+- uid: csharp_test.Car
+  commentId: T:csharp_test.Car
+  parent: csharp_test
+  href: csharp_test.Car.html
+  name: Car
+  nameWithType: Car
+  fullName: csharp_test.Car
+- uid: csharp_test.App
+  commentId: T:csharp_test.App
+  href: csharp_test.App.html
+  name: App
+  nameWithType: App
+  fullName: csharp_test.App
+- uid: csharp_test.PassengerCar
+  commentId: T:csharp_test.PassengerCar
+  href: csharp_test.PassengerCar.html
+  name: PassengerCar
+  nameWithType: PassengerCar
+  fullName: csharp_test.PassengerCar
+- uid: csharp_test.Truck
+  commentId: T:csharp_test.Truck
+  href: csharp_test.Truck.html
+  name: Truck
+  nameWithType: Truck
+  fullName: csharp_test.Truck
+- uid: csharp_test
+  commentId: N:csharp_test
+  href: csharp_test.html
+  name: csharp_test
+  nameWithType: csharp_test
+  fullName: csharp_test

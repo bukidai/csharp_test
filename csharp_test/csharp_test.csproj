@@ -40,6 +40,7 @@
     <Compile Include="App.cs" />
     <Compile Include="PassengerCar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Taxi.cs" />
     <Compile Include="Truck.cs" />
   </ItemGroup>
   <ItemGroup>
