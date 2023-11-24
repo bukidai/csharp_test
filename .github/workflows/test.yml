@@ -1,0 +1,7 @@
+name: test-actions
+on: [push]
+jobs:
+    check-bets-version:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello World"
