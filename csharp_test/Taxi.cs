@@ -5,7 +5,7 @@ namespace csharp_test
     /// <summary>
     /// タクシークラス
     /// </summary>
-    internal class Taxi : Car
+    public class Taxi : Car
     {
         public int Fare { get; set; }
         public int Fee { get; set; }

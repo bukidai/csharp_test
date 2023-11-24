@@ -157,6 +157,70 @@ references:
   isSpec: "True"
   fullName: csharp_test.PassengerCar.Run
   nameWithType: PassengerCar.Run
+- uid: csharp_test.Taxi
+  name: Taxi
+  href: api/csharp_test.Taxi.html
+  commentId: T:csharp_test.Taxi
+  fullName: csharp_test.Taxi
+  nameWithType: Taxi
+- uid: csharp_test.Taxi.#ctor(System.Int32,System.Int32,System.Int32,System.String)
+  name: Taxi(int, int, int, string)
+  href: api/csharp_test.Taxi.html#csharp_test_Taxi__ctor_System_Int32_System_Int32_System_Int32_System_String_
+  commentId: M:csharp_test.Taxi.#ctor(System.Int32,System.Int32,System.Int32,System.String)
+  name.vb: New(Integer, Integer, Integer, String)
+  fullName: csharp_test.Taxi.Taxi(int, int, int, string)
+  fullName.vb: csharp_test.Taxi.New(Integer, Integer, Integer, String)
+  nameWithType: Taxi.Taxi(int, int, int, string)
+  nameWithType.vb: Taxi.New(Integer, Integer, Integer, String)
+- uid: csharp_test.Taxi.#ctor*
+  name: Taxi
+  href: api/csharp_test.Taxi.html#csharp_test_Taxi__ctor_
+  commentId: Overload:csharp_test.Taxi.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: csharp_test.Taxi.Taxi
+  fullName.vb: csharp_test.Taxi.New
+  nameWithType: Taxi.Taxi
+  nameWithType.vb: Taxi.New
+- uid: csharp_test.Taxi.Fare
+  name: Fare
+  href: api/csharp_test.Taxi.html#csharp_test_Taxi_Fare
+  commentId: P:csharp_test.Taxi.Fare
+  fullName: csharp_test.Taxi.Fare
+  nameWithType: Taxi.Fare
+- uid: csharp_test.Taxi.Fare*
+  name: Fare
+  href: api/csharp_test.Taxi.html#csharp_test_Taxi_Fare_
+  commentId: Overload:csharp_test.Taxi.Fare
+  isSpec: "True"
+  fullName: csharp_test.Taxi.Fare
+  nameWithType: Taxi.Fare
+- uid: csharp_test.Taxi.Fee
+  name: Fee
+  href: api/csharp_test.Taxi.html#csharp_test_Taxi_Fee
+  commentId: P:csharp_test.Taxi.Fee
+  fullName: csharp_test.Taxi.Fee
+  nameWithType: Taxi.Fee
+- uid: csharp_test.Taxi.Fee*
+  name: Fee
+  href: api/csharp_test.Taxi.html#csharp_test_Taxi_Fee_
+  commentId: Overload:csharp_test.Taxi.Fee
+  isSpec: "True"
+  fullName: csharp_test.Taxi.Fee
+  nameWithType: Taxi.Fee
+- uid: csharp_test.Taxi.Run
+  name: Run()
+  href: api/csharp_test.Taxi.html#csharp_test_Taxi_Run
+  commentId: M:csharp_test.Taxi.Run
+  fullName: csharp_test.Taxi.Run()
+  nameWithType: Taxi.Run()
+- uid: csharp_test.Taxi.Run*
+  name: Run
+  href: api/csharp_test.Taxi.html#csharp_test_Taxi_Run_
+  commentId: Overload:csharp_test.Taxi.Run
+  isSpec: "True"
+  fullName: csharp_test.Taxi.Run
+  nameWithType: Taxi.Run
 - uid: csharp_test.Truck
   name: Truck
   href: api/csharp_test.Truck.html

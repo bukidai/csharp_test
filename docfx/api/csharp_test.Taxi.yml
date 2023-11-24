@@ -1,46 +1,45 @@
 ### YamlMime:ManagedReference
 items:
-- uid: csharp_test.Car
-  commentId: T:csharp_test.Car
-  id: Car
+- uid: csharp_test.Taxi
+  commentId: T:csharp_test.Taxi
+  id: Taxi
   parent: csharp_test
   children:
-  - csharp_test.Car.#ctor(System.String,System.Int32,System.Int32)
-  - csharp_test.Car.Displacement
-  - csharp_test.Car.MaxSpeed
-  - csharp_test.Car.Name
-  - csharp_test.Car.Run
-  - csharp_test.Car.ShowInfo
+  - csharp_test.Taxi.#ctor(System.Int32,System.Int32,System.Int32,System.String)
+  - csharp_test.Taxi.Fare
+  - csharp_test.Taxi.Fee
+  - csharp_test.Taxi.Run
   langs:
   - csharp
   - vb
-  name: Car
-  nameWithType: Car
-  fullName: csharp_test.Car
+  name: Taxi
+  nameWithType: Taxi
+  fullName: csharp_test.Taxi
   type: Class
   source:
     remote:
-      path: csharp_test/Car.cs
+      path: csharp_test/Taxi.cs
       branch: main
       repo: https://github.com/bukidai/csharp_test.git
-    id: Car
-    path: ../csharp_test/Car.cs
-    startLine: 11
+    id: Taxi
+    path: ../csharp_test/Taxi.cs
+    startLine: 7
   assemblies:
   - csharp_test
   namespace: csharp_test
-  summary: 自動車を表す抽象クラス
+  summary: タクシークラス
   example: []
   syntax:
-    content: public abstract class Car
-    content.vb: Public MustInherit Class Car
+    content: 'public class Taxi : Car'
+    content.vb: Public Class Taxi Inherits Car
   inheritance:
   - System.Object
-  derivedClasses:
-  - csharp_test.PassengerCar
-  - csharp_test.Taxi
-  - csharp_test.Truck
+  - csharp_test.Car
   inheritedMembers:
+  - csharp_test.Car.Name
+  - csharp_test.Car.Displacement
+  - csharp_test.Car.MaxSpeed
+  - csharp_test.Car.ShowInfo
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -48,181 +47,130 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: csharp_test.Car.Name
-  commentId: P:csharp_test.Car.Name
-  id: Name
-  parent: csharp_test.Car
+- uid: csharp_test.Taxi.Fare
+  commentId: P:csharp_test.Taxi.Fare
+  id: Fare
+  parent: csharp_test.Taxi
   langs:
   - csharp
   - vb
-  name: Name
-  nameWithType: Car.Name
-  fullName: csharp_test.Car.Name
+  name: Fare
+  nameWithType: Taxi.Fare
+  fullName: csharp_test.Taxi.Fare
   type: Property
   source:
     remote:
-      path: csharp_test/Car.cs
+      path: csharp_test/Taxi.cs
       branch: main
       repo: https://github.com/bukidai/csharp_test.git
-    id: Name
-    path: ../csharp_test/Car.cs
-    startLine: 13
+    id: Fare
+    path: ../csharp_test/Taxi.cs
+    startLine: 9
   assemblies:
   - csharp_test
   namespace: csharp_test
   syntax:
-    content: public string Name { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Name As String
-  overload: csharp_test.Car.Name*
-- uid: csharp_test.Car.Displacement
-  commentId: P:csharp_test.Car.Displacement
-  id: Displacement
-  parent: csharp_test.Car
-  langs:
-  - csharp
-  - vb
-  name: Displacement
-  nameWithType: Car.Displacement
-  fullName: csharp_test.Car.Displacement
-  type: Property
-  source:
-    remote:
-      path: csharp_test/Car.cs
-      branch: main
-      repo: https://github.com/bukidai/csharp_test.git
-    id: Displacement
-    path: ../csharp_test/Car.cs
-    startLine: 14
-  assemblies:
-  - csharp_test
-  namespace: csharp_test
-  syntax:
-    content: public int Displacement { get; set; }
+    content: public int Fare { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Property Displacement As Integer
-  overload: csharp_test.Car.Displacement*
-- uid: csharp_test.Car.MaxSpeed
-  commentId: P:csharp_test.Car.MaxSpeed
-  id: MaxSpeed
-  parent: csharp_test.Car
+    content.vb: Public Property Fare As Integer
+  overload: csharp_test.Taxi.Fare*
+- uid: csharp_test.Taxi.Fee
+  commentId: P:csharp_test.Taxi.Fee
+  id: Fee
+  parent: csharp_test.Taxi
   langs:
   - csharp
   - vb
-  name: MaxSpeed
-  nameWithType: Car.MaxSpeed
-  fullName: csharp_test.Car.MaxSpeed
+  name: Fee
+  nameWithType: Taxi.Fee
+  fullName: csharp_test.Taxi.Fee
   type: Property
   source:
     remote:
-      path: csharp_test/Car.cs
+      path: csharp_test/Taxi.cs
       branch: main
       repo: https://github.com/bukidai/csharp_test.git
-    id: MaxSpeed
-    path: ../csharp_test/Car.cs
-    startLine: 15
+    id: Fee
+    path: ../csharp_test/Taxi.cs
+    startLine: 10
   assemblies:
   - csharp_test
   namespace: csharp_test
   syntax:
-    content: public int MaxSpeed { get; set; }
+    content: public int Fee { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Property MaxSpeed As Integer
-  overload: csharp_test.Car.MaxSpeed*
-- uid: csharp_test.Car.#ctor(System.String,System.Int32,System.Int32)
-  commentId: M:csharp_test.Car.#ctor(System.String,System.Int32,System.Int32)
-  id: '#ctor(System.String,System.Int32,System.Int32)'
-  parent: csharp_test.Car
+    content.vb: Public Property Fee As Integer
+  overload: csharp_test.Taxi.Fee*
+- uid: csharp_test.Taxi.#ctor(System.Int32,System.Int32,System.Int32,System.String)
+  commentId: M:csharp_test.Taxi.#ctor(System.Int32,System.Int32,System.Int32,System.String)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.String)'
+  parent: csharp_test.Taxi
   langs:
   - csharp
   - vb
-  name: Car(string, int, int)
-  nameWithType: Car.Car(string, int, int)
-  fullName: csharp_test.Car.Car(string, int, int)
+  name: Taxi(int, int, int, string)
+  nameWithType: Taxi.Taxi(int, int, int, string)
+  fullName: csharp_test.Taxi.Taxi(int, int, int, string)
   type: Constructor
   source:
     remote:
-      path: csharp_test/Car.cs
+      path: csharp_test/Taxi.cs
       branch: main
       repo: https://github.com/bukidai/csharp_test.git
     id: .ctor
-    path: ../csharp_test/Car.cs
-    startLine: 17
+    path: ../csharp_test/Taxi.cs
+    startLine: 12
   assemblies:
   - csharp_test
   namespace: csharp_test
   syntax:
-    content: public Car(string name, int displacement, int maxSpeed)
+    content: public Taxi(int fare, int fee, int speed, string name)
     parameters:
+    - id: fare
+      type: System.Int32
+    - id: fee
+      type: System.Int32
+    - id: speed
+      type: System.Int32
     - id: name
       type: System.String
-    - id: displacement
-      type: System.Int32
-    - id: maxSpeed
-      type: System.Int32
-    content.vb: Public Sub New(name As String, displacement As Integer, maxSpeed As Integer)
-  overload: csharp_test.Car.#ctor*
-  nameWithType.vb: Car.New(String, Integer, Integer)
-  fullName.vb: csharp_test.Car.New(String, Integer, Integer)
-  name.vb: New(String, Integer, Integer)
-- uid: csharp_test.Car.ShowInfo
-  commentId: M:csharp_test.Car.ShowInfo
-  id: ShowInfo
-  parent: csharp_test.Car
-  langs:
-  - csharp
-  - vb
-  name: ShowInfo()
-  nameWithType: Car.ShowInfo()
-  fullName: csharp_test.Car.ShowInfo()
-  type: Method
-  source:
-    remote:
-      path: csharp_test/Car.cs
-      branch: main
-      repo: https://github.com/bukidai/csharp_test.git
-    id: ShowInfo
-    path: ../csharp_test/Car.cs
-    startLine: 24
-  assemblies:
-  - csharp_test
-  namespace: csharp_test
-  syntax:
-    content: public void ShowInfo()
-    content.vb: Public Sub ShowInfo()
-  overload: csharp_test.Car.ShowInfo*
-- uid: csharp_test.Car.Run
-  commentId: M:csharp_test.Car.Run
+    content.vb: Public Sub New(fare As Integer, fee As Integer, speed As Integer, name As String)
+  overload: csharp_test.Taxi.#ctor*
+  nameWithType.vb: Taxi.New(Integer, Integer, Integer, String)
+  fullName.vb: csharp_test.Taxi.New(Integer, Integer, Integer, String)
+  name.vb: New(Integer, Integer, Integer, String)
+- uid: csharp_test.Taxi.Run
+  commentId: M:csharp_test.Taxi.Run
   id: Run
-  parent: csharp_test.Car
+  parent: csharp_test.Taxi
   langs:
   - csharp
   - vb
   name: Run()
-  nameWithType: Car.Run()
-  fullName: csharp_test.Car.Run()
+  nameWithType: Taxi.Run()
+  fullName: csharp_test.Taxi.Run()
   type: Method
   source:
     remote:
-      path: csharp_test/Car.cs
+      path: csharp_test/Taxi.cs
       branch: main
       repo: https://github.com/bukidai/csharp_test.git
     id: Run
-    path: ../csharp_test/Car.cs
-    startLine: 29
+    path: ../csharp_test/Taxi.cs
+    startLine: 18
   assemblies:
   - csharp_test
   namespace: csharp_test
+  example: []
   syntax:
-    content: public abstract void Run()
-    content.vb: Public MustOverride Sub Run()
-  overload: csharp_test.Car.Run*
+    content: public override void Run()
+    content.vb: Public Overrides Sub Run()
+  overridden: csharp_test.Car.Run
+  overload: csharp_test.Taxi.Run*
 references:
 - uid: csharp_test
   commentId: N:csharp_test
@@ -241,6 +189,53 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: csharp_test.Car
+  commentId: T:csharp_test.Car
+  parent: csharp_test
+  href: csharp_test.Car.html
+  name: Car
+  nameWithType: Car
+  fullName: csharp_test.Car
+- uid: csharp_test.Car.Name
+  commentId: P:csharp_test.Car.Name
+  parent: csharp_test.Car
+  href: csharp_test.Car.html#csharp_test_Car_Name
+  name: Name
+  nameWithType: Car.Name
+  fullName: csharp_test.Car.Name
+- uid: csharp_test.Car.Displacement
+  commentId: P:csharp_test.Car.Displacement
+  parent: csharp_test.Car
+  href: csharp_test.Car.html#csharp_test_Car_Displacement
+  name: Displacement
+  nameWithType: Car.Displacement
+  fullName: csharp_test.Car.Displacement
+- uid: csharp_test.Car.MaxSpeed
+  commentId: P:csharp_test.Car.MaxSpeed
+  parent: csharp_test.Car
+  href: csharp_test.Car.html#csharp_test_Car_MaxSpeed
+  name: MaxSpeed
+  nameWithType: Car.MaxSpeed
+  fullName: csharp_test.Car.MaxSpeed
+- uid: csharp_test.Car.ShowInfo
+  commentId: M:csharp_test.Car.ShowInfo
+  parent: csharp_test.Car
+  href: csharp_test.Car.html#csharp_test_Car_ShowInfo
+  name: ShowInfo()
+  nameWithType: Car.ShowInfo()
+  fullName: csharp_test.Car.ShowInfo()
+  spec.csharp:
+  - uid: csharp_test.Car.ShowInfo
+    name: ShowInfo
+    href: csharp_test.Car.html#csharp_test_Car_ShowInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: csharp_test.Car.ShowInfo
+    name: ShowInfo
+    href: csharp_test.Car.html#csharp_test_Car_ShowInfo
+  - name: (
+  - name: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -467,29 +462,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: csharp_test.Car.Name*
-  commentId: Overload:csharp_test.Car.Name
-  href: csharp_test.Car.html#csharp_test_Car_Name
-  name: Name
-  nameWithType: Car.Name
-  fullName: csharp_test.Car.Name
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: csharp_test.Car.Displacement*
-  commentId: Overload:csharp_test.Car.Displacement
-  href: csharp_test.Car.html#csharp_test_Car_Displacement
-  name: Displacement
-  nameWithType: Car.Displacement
-  fullName: csharp_test.Car.Displacement
+- uid: csharp_test.Taxi.Fare*
+  commentId: Overload:csharp_test.Taxi.Fare
+  href: csharp_test.Taxi.html#csharp_test_Taxi_Fare
+  name: Fare
+  nameWithType: Taxi.Fare
+  fullName: csharp_test.Taxi.Fare
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -501,30 +479,54 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: csharp_test.Car.MaxSpeed*
-  commentId: Overload:csharp_test.Car.MaxSpeed
-  href: csharp_test.Car.html#csharp_test_Car_MaxSpeed
-  name: MaxSpeed
-  nameWithType: Car.MaxSpeed
-  fullName: csharp_test.Car.MaxSpeed
-- uid: csharp_test.Car.#ctor*
-  commentId: Overload:csharp_test.Car.#ctor
-  href: csharp_test.Car.html#csharp_test_Car__ctor_System_String_System_Int32_System_Int32_
-  name: Car
-  nameWithType: Car.Car
-  fullName: csharp_test.Car.Car
-  nameWithType.vb: Car.New
-  fullName.vb: csharp_test.Car.New
+- uid: csharp_test.Taxi.Fee*
+  commentId: Overload:csharp_test.Taxi.Fee
+  href: csharp_test.Taxi.html#csharp_test_Taxi_Fee
+  name: Fee
+  nameWithType: Taxi.Fee
+  fullName: csharp_test.Taxi.Fee
+- uid: csharp_test.Taxi.#ctor*
+  commentId: Overload:csharp_test.Taxi.#ctor
+  href: csharp_test.Taxi.html#csharp_test_Taxi__ctor_System_Int32_System_Int32_System_Int32_System_String_
+  name: Taxi
+  nameWithType: Taxi.Taxi
+  fullName: csharp_test.Taxi.Taxi
+  nameWithType.vb: Taxi.New
+  fullName.vb: csharp_test.Taxi.New
   name.vb: New
-- uid: csharp_test.Car.ShowInfo*
-  commentId: Overload:csharp_test.Car.ShowInfo
-  href: csharp_test.Car.html#csharp_test_Car_ShowInfo
-  name: ShowInfo
-  nameWithType: Car.ShowInfo
-  fullName: csharp_test.Car.ShowInfo
-- uid: csharp_test.Car.Run*
-  commentId: Overload:csharp_test.Car.Run
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: csharp_test.Car.Run
+  commentId: M:csharp_test.Car.Run
+  parent: csharp_test.Car
   href: csharp_test.Car.html#csharp_test_Car_Run
+  name: Run()
+  nameWithType: Car.Run()
+  fullName: csharp_test.Car.Run()
+  spec.csharp:
+  - uid: csharp_test.Car.Run
+    name: Run
+    href: csharp_test.Car.html#csharp_test_Car_Run
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: csharp_test.Car.Run
+    name: Run
+    href: csharp_test.Car.html#csharp_test_Car_Run
+  - name: (
+  - name: )
+- uid: csharp_test.Taxi.Run*
+  commentId: Overload:csharp_test.Taxi.Run
+  href: csharp_test.Taxi.html#csharp_test_Taxi_Run
   name: Run
-  nameWithType: Car.Run
-  fullName: csharp_test.Car.Run
+  nameWithType: Taxi.Run
+  fullName: csharp_test.Taxi.Run

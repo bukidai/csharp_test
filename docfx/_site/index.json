@@ -7,12 +7,17 @@
   "api/csharp_test.Car.html": {
     "href": "api/csharp_test.Car.html",
     "title": "Class Car | mysite",
-    "keywords": "Class Car Namespace csharp_test Assembly csharp_test.dll 自動車を表す抽象クラス public abstract class Car Inheritance object Car Derived PassengerCar Truck Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Constructors Car(string, int, int) public Car(string name, int displacement, int maxSpeed) Parameters name string displacement int maxSpeed int Properties Displacement public int Displacement { get; set; } Property Value int MaxSpeed public int MaxSpeed { get; set; } Property Value int Name public string Name { get; set; } Property Value string Methods Run() public abstract void Run() ShowInfo() public void ShowInfo()"
+    "keywords": "Class Car Namespace csharp_test Assembly csharp_test.dll 自動車を表す抽象クラス public abstract class Car Inheritance object Car Derived PassengerCar Taxi Truck Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Constructors Car(string, int, int) public Car(string name, int displacement, int maxSpeed) Parameters name string displacement int maxSpeed int Properties Displacement public int Displacement { get; set; } Property Value int MaxSpeed public int MaxSpeed { get; set; } Property Value int Name public string Name { get; set; } Property Value string Methods Run() public abstract void Run() ShowInfo() public void ShowInfo()"
   },
   "api/csharp_test.PassengerCar.html": {
     "href": "api/csharp_test.PassengerCar.html",
     "title": "Class PassengerCar | mysite",
     "keywords": "Class PassengerCar Namespace csharp_test Assembly csharp_test.dll 乗用車を表すクラス public class PassengerCar : Car Inheritance object Car PassengerCar Inherited Members Car.Name Car.Displacement Car.MaxSpeed Car.ShowInfo() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Constructors PassengerCar(string, int, int) public PassengerCar(string name, int displacement, int maxSpeed) Parameters name string displacement int maxSpeed int Methods Run() public override void Run()"
+  },
+  "api/csharp_test.Taxi.html": {
+    "href": "api/csharp_test.Taxi.html",
+    "title": "Class Taxi | mysite",
+    "keywords": "Class Taxi Namespace csharp_test Assembly csharp_test.dll タクシークラス public class Taxi : Car Inheritance object Car Taxi Inherited Members Car.Name Car.Displacement Car.MaxSpeed Car.ShowInfo() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Constructors Taxi(int, int, int, string) public Taxi(int fare, int fee, int speed, string name) Parameters fare int fee int speed int name string Properties Fare public int Fare { get; set; } Property Value int Fee public int Fee { get; set; } Property Value int Methods Run() public override void Run()"
   },
   "api/csharp_test.Truck.html": {
     "href": "api/csharp_test.Truck.html",
@@ -22,7 +27,7 @@
   "api/csharp_test.html": {
     "href": "api/csharp_test.html",
     "title": "Namespace csharp_test | mysite",
-    "keywords": "Namespace csharp_test Classes App Car 自動車を表す抽象クラス PassengerCar 乗用車を表すクラス Truck トラックを表すクラス"
+    "keywords": "Namespace csharp_test Classes App Car 自動車を表す抽象クラス PassengerCar 乗用車を表すクラス Taxi タクシークラス Truck トラックを表すクラス"
   },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",

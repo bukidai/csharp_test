@@ -7,6 +7,7 @@ items:
   - csharp_test.App
   - csharp_test.Car
   - csharp_test.PassengerCar
+  - csharp_test.Taxi
   - csharp_test.Truck
   langs:
   - csharp
@@ -37,6 +38,12 @@ references:
   name: PassengerCar
   nameWithType: PassengerCar
   fullName: csharp_test.PassengerCar
+- uid: csharp_test.Taxi
+  commentId: T:csharp_test.Taxi
+  href: csharp_test.Taxi.html
+  name: Taxi
+  nameWithType: Taxi
+  fullName: csharp_test.Taxi
 - uid: csharp_test.Truck
   commentId: T:csharp_test.Truck
   href: csharp_test.Truck.html

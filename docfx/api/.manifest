@@ -12,6 +12,11 @@
   "csharp_test.PassengerCar": "csharp_test.PassengerCar.yml",
   "csharp_test.PassengerCar.#ctor(System.String,System.Int32,System.Int32)": "csharp_test.PassengerCar.yml",
   "csharp_test.PassengerCar.Run": "csharp_test.PassengerCar.yml",
+  "csharp_test.Taxi": "csharp_test.Taxi.yml",
+  "csharp_test.Taxi.#ctor(System.Int32,System.Int32,System.Int32,System.String)": "csharp_test.Taxi.yml",
+  "csharp_test.Taxi.Fare": "csharp_test.Taxi.yml",
+  "csharp_test.Taxi.Fee": "csharp_test.Taxi.yml",
+  "csharp_test.Taxi.Run": "csharp_test.Taxi.yml",
   "csharp_test.Truck": "csharp_test.Truck.yml",
   "csharp_test.Truck.#ctor": "csharp_test.Truck.yml",
   "csharp_test.Truck.Run": "csharp_test.Truck.yml"

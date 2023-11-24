@@ -9,6 +9,8 @@ items:
     name: Car
   - uid: csharp_test.PassengerCar
     name: PassengerCar
+  - uid: csharp_test.Taxi
+    name: Taxi
   - uid: csharp_test.Truck
     name: Truck
 memberLayout: SamePage

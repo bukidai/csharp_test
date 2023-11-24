@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Car
+      <title>Class Taxi
  | mysite </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Car
+      <meta name="title" content="Class Taxi
  | mysite ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/bukidai/csharp_test/new/main/apiSpec/new?filename=csharp_test_Car.md&amp;value=---%0Auid%3A%20csharp_test.Car%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/bukidai/csharp_test/new/main/apiSpec/new?filename=csharp_test_Taxi.md&amp;value=---%0Auid%3A%20csharp_test.Taxi%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,13 +85,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="csharp_test.Car">
+        <article data-uid="csharp_test.Taxi">
 
 
 
-  <h1 id="csharp_test_Car" data-uid="csharp_test.Car" class="text-break">
-    Class Car
-  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Car.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h1 id="csharp_test_Taxi" data-uid="csharp_test.Taxi" class="text-break">
+    Class Taxi
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Taxi.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -99,12 +99,12 @@
   <dl><dt>Assembly</dt><dd>csharp_test.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>自動車を表す抽象クラス</p>
+  <div class="markdown summary"><p>タクシークラス</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Car</code></pre>
+    <pre><code class="lang-csharp hljs">public class Taxi : Car</code></pre>
   </div>
 
 
@@ -114,23 +114,28 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Car</span></div>
+      <div><a class="xref" href="csharp_test.Car.html">Car</a></div>
+      <div><span class="xref">Taxi</span></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="csharp_test.PassengerCar.html">PassengerCar</a></div>
-      <div><a class="xref" href="csharp_test.Taxi.html">Taxi</a></div>
-      <div><a class="xref" href="csharp_test.Truck.html">Truck</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist derived">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="csharp_test.Car.html#csharp_test_Car_Name">Car.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="csharp_test.Car.html#csharp_test_Car_Displacement">Car.Displacement</a>
+    </div>
+    <div>
+      <a class="xref" href="csharp_test.Car.html#csharp_test_Car_MaxSpeed">Car.MaxSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="csharp_test.Car.html#csharp_test_Car_ShowInfo">Car.ShowInfo()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
@@ -163,27 +168,29 @@
 </h2>
 
 
-  <a id="csharp_test_Car__ctor_" data-uid="csharp_test.Car.#ctor*"></a>
+  <a id="csharp_test_Taxi__ctor_" data-uid="csharp_test.Taxi.#ctor*"></a>
 
-  <h3 id="csharp_test_Car__ctor_System_String_System_Int32_System_Int32_" data-uid="csharp_test.Car.#ctor(System.String,System.Int32,System.Int32)">
-  Car(string, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Car.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h3 id="csharp_test_Taxi__ctor_System_Int32_System_Int32_System_Int32_System_String_" data-uid="csharp_test.Taxi.#ctor(System.Int32,System.Int32,System.Int32,System.String)">
+  Taxi(int, int, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Taxi.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Car(string name, int displacement, int maxSpeed)</code></pre>
+    <pre><code class="lang-csharp hljs">public Taxi(int fare, int fee, int speed, string name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>fare</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>fee</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>speed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>displacement</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>maxSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -202,18 +209,18 @@
 </h2>
 
 
-  <a id="csharp_test_Car_Displacement_" data-uid="csharp_test.Car.Displacement*"></a>
+  <a id="csharp_test_Taxi_Fare_" data-uid="csharp_test.Taxi.Fare*"></a>
 
-  <h3 id="csharp_test_Car_Displacement" data-uid="csharp_test.Car.Displacement">
-  Displacement
-  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Car.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h3 id="csharp_test_Taxi_Fare" data-uid="csharp_test.Taxi.Fare">
+  Fare
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Taxi.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Displacement { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Fare { get; set; }</code></pre>
   </div>
 
 
@@ -233,18 +240,18 @@
 
 
 
-  <a id="csharp_test_Car_MaxSpeed_" data-uid="csharp_test.Car.MaxSpeed*"></a>
+  <a id="csharp_test_Taxi_Fee_" data-uid="csharp_test.Taxi.Fee*"></a>
 
-  <h3 id="csharp_test_Car_MaxSpeed" data-uid="csharp_test.Car.MaxSpeed">
-  MaxSpeed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Car.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <h3 id="csharp_test_Taxi_Fee" data-uid="csharp_test.Taxi.Fee">
+  Fee
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Taxi.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int MaxSpeed { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Fee { get; set; }</code></pre>
   </div>
 
 
@@ -254,37 +261,6 @@
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="csharp_test_Car_Name_" data-uid="csharp_test.Car.Name*"></a>
-
-  <h3 id="csharp_test_Car_Name" data-uid="csharp_test.Car.Name">
-  Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Car.cs/#L14"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -299,44 +275,18 @@
 </h2>
 
 
-  <a id="csharp_test_Car_Run_" data-uid="csharp_test.Car.Run*"></a>
+  <a id="csharp_test_Taxi_Run_" data-uid="csharp_test.Taxi.Run*"></a>
 
-  <h3 id="csharp_test_Car_Run" data-uid="csharp_test.Car.Run">
+  <h3 id="csharp_test_Taxi_Run" data-uid="csharp_test.Taxi.Run">
   Run()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Car.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Taxi.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Run()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="csharp_test_Car_ShowInfo_" data-uid="csharp_test.Car.ShowInfo*"></a>
-
-  <h3 id="csharp_test_Car_ShowInfo" data-uid="csharp_test.Car.ShowInfo">
-  ShowInfo()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Car.cs/#L25"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ShowInfo()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Run()</code></pre>
   </div>
 
 
@@ -355,7 +305,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Car.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/bukidai/csharp_test/blob/main/csharp_test/Taxi.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 
